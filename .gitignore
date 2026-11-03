@@ -7,6 +7,5 @@ models/
 pytest-cache-files-*/
 *.egg-info/
 /CLAUDE.md
-/EXPERIMENT_LOG.md
 /PRD.md
 /IMPLEMENTATION_GUIDE.md
