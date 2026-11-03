@@ -1,0 +1,9 @@
+split,rule_id,rule_description,rows_before,rows_dropped,rows_after
+test,F1,Current lap already clean (Phase 2 input),17403,0,17403
+train,F1,Current lap already clean (Phase 2 input),32897,0,32897
+test,F2,At least three prior clean laps in race/driver,17403,1039,16364
+train,F2,At least three prior clean laps in race/driver,32897,2080,30817
+test,F3,Prior three lap numbers exactly consecutive,16364,2646,13718
+train,F3,Prior three lap numbers exactly consecutive,30817,5481,25336
+test,F4,Prior three laps in the current stint,13718,0,13718
+train,F4,Prior three laps in the current stint,25336,0,25336

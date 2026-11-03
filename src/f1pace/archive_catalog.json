@@ -1,0 +1,2616 @@
+{
+  "schema_version": 1,
+  "schedule_source": {
+    "repository": "theOehrly/f1schedule",
+    "commit": "2b0c23cf46d59bbe1c1b8c77da32fe8f74d6fe52"
+  },
+  "seasons": [
+    {
+      "year": 2023,
+      "url": "https://raw.githubusercontent.com/theOehrly/f1schedule/2b0c23cf46d59bbe1c1b8c77da32fe8f74d6fe52/schedule_2023.json",
+      "sha256": "5ead020a62743dda04d62352b55f3ff0da42a58ffa01ca4508f1470d764412aa"
+    },
+    {
+      "year": 2024,
+      "url": "https://raw.githubusercontent.com/theOehrly/f1schedule/2b0c23cf46d59bbe1c1b8c77da32fe8f74d6fe52/schedule_2024.json",
+      "sha256": "9c27243d3a60115e980d6bdc5e882cd204efefe2d9a5a3dad1d553163a726999"
+    },
+    {
+      "year": 2025,
+      "url": "https://raw.githubusercontent.com/theOehrly/f1schedule/2b0c23cf46d59bbe1c1b8c77da32fe8f74d6fe52/schedule_2025.json",
+      "sha256": "a556e38c2dc1da270ff6d7d1bee2c2762ba292a719ffb419001f9fc1b17ce545"
+    }
+  ],
+  "races": [
+    {
+      "year": 2023,
+      "round": 1,
+      "event_name": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Bahrain%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Bahrain%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "9c5da4a5bbea0752b0b509aed50de6d608109aca9d03f87d41c5f7b789ff579b",
+          "bytes": 321211
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Bahrain%20Grand%20Prix/Race/weather.json",
+          "sha256": "57a1762ab507bd040d2e4ff873f96f929edda0886781dfd76a69b6584392f145",
+          "bytes": 7237
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Bahrain%20Grand%20Prix/Race/rcm.json",
+          "sha256": "e43be46be17cecc23c39bbc4756ff87708cf00f9ac1fbfa533585fad50c8267b",
+          "bytes": 10044
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Bahrain%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 2,
+      "event_name": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Saudi%20Arabian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Saudi%20Arabian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "6a8881930a0efa53a40d039bceaa9e9997e135e56835518a5011d26c8fceea12",
+          "bytes": 284279
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Saudi%20Arabian%20Grand%20Prix/Race/weather.json",
+          "sha256": "d5b65d07af587d440970c5d7ae364a881451067e69d431faefebdbc6ed24069a",
+          "bytes": 6665
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Saudi%20Arabian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "cbe65aa36471a9687ab6953078bd18a651c330b33c4f8771350cff3567c4e388",
+          "bytes": 7567
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Saudi%20Arabian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "803747b2f33d236a3abfbb152f3e518e57319af53745dc86db1f8858c5eaa84e",
+          "bytes": 823
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 3,
+      "event_name": "Australian Grand Prix",
+      "location": "Melbourne",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Australian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Australian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "b8e4fb96234e2573b2c75792f62e0095314e616507b73679665966c5703ee5c0",
+          "bytes": 299612
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Australian%20Grand%20Prix/Race/weather.json",
+          "sha256": "b45813012071cf33b50088179bd616b13e8ebc6494acb79cee7be7a003b074c3",
+          "bytes": 9984
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Australian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "15106d2108aba94ac9ce9bbabb8020052d9b534bee0c3f20a72c5a04a0632fa9",
+          "bytes": 12215
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Australian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 4,
+      "event_name": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Azerbaijan%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Azerbaijan%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "70ec7b098c2dc144a83463c031c728a78a6107fffb24ff4012166bb27fba3cef",
+          "bytes": 289832
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Azerbaijan%20Grand%20Prix/Race/weather.json",
+          "sha256": "bb1396aca48ae6b0ead9939abda5ac2f8059eb0eda85a0386e91d0d18391c263",
+          "bytes": 7127
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Azerbaijan%20Grand%20Prix/Race/rcm.json",
+          "sha256": "07ae6176c1df424a5392eac4bd1c214e319b01969735eee9397a8a9607eac3ab",
+          "bytes": 6023
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Azerbaijan%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 5,
+      "event_name": "Miami Grand Prix",
+      "location": "Miami",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Miami%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Miami%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "ff4f0b67b2cacc483d77a8e569056ca830f7265f196223def7787d0188528acc",
+          "bytes": 342543
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Miami%20Grand%20Prix/Race/weather.json",
+          "sha256": "cf8fef9e8a124db22b44a63f724afdcebd9e804e19e492d0285953a6721286f2",
+          "bytes": 6990
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Miami%20Grand%20Prix/Race/rcm.json",
+          "sha256": "d865001e0af568bf4663395f078dba0f6bbfdb4dd6616e5a420f061311a78730",
+          "bytes": 5119
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Miami%20Grand%20Prix/Race/drivers.json",
+          "sha256": "f2baf8ae887c20625adece69caa810144a5f5a2d3ea7201695f305b12af7d36a",
+          "bytes": 823
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 6,
+      "event_name": "Monaco Grand Prix",
+      "location": "Monaco",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Monaco%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Monaco%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "25cadabd57e0cf0cbec2fd89b529f50808a6c6b4b60f2be078461c7c3403d641",
+          "bytes": 453690
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Monaco%20Grand%20Prix/Race/weather.json",
+          "sha256": "9f9e7f3f73cb29233feec8fb2bfb1b4706e52444c873ca840aa7fc40953d142b",
+          "bytes": 7872
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Monaco%20Grand%20Prix/Race/rcm.json",
+          "sha256": "d9117019196c8bf224b9f137d8079aaf84332bffc637f5c7c4bdd11c5d467543",
+          "bytes": 31586
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Monaco%20Grand%20Prix/Race/drivers.json",
+          "sha256": "803747b2f33d236a3abfbb152f3e518e57319af53745dc86db1f8858c5eaa84e",
+          "bytes": 823
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 7,
+      "event_name": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Spanish%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Spanish%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "304368be504bbe6fa1ae788a772e9b2a3033c8999cf5131199f10fd419b9d3cf",
+          "bytes": 389102
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Spanish%20Grand%20Prix/Race/weather.json",
+          "sha256": "a59457dcb282b013870bfee1b615d3d428d95938508e78ea50ec8b8149029316",
+          "bytes": 6871
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Spanish%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4c43cffdc8630dbe0dc79497bdef7c02b08c00c3533b161739d00d6a0e6f10d7",
+          "bytes": 6492
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Spanish%20Grand%20Prix/Race/drivers.json",
+          "sha256": "bfc28706d623d1381bd59060aab5cb8a2a248540cade436e68d96a1b7d0c2b74",
+          "bytes": 823
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 8,
+      "event_name": "Canadian Grand Prix",
+      "location": "Montréal",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Canadian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Canadian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "57cd1a61d1af4d40887b770246b5f829ebee671dc8d3cacbfe48cfee61636dcf",
+          "bytes": 388130
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Canadian%20Grand%20Prix/Race/weather.json",
+          "sha256": "b350276c770a973dfd3f8d3333ea026959d1093ee38d2da6f12c4081eb6f7f33",
+          "bytes": 7319
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Canadian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "cb642e732b318eb4b04819f1ee343f091364f9df21d81821c44659064fefbc87",
+          "bytes": 9872
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Canadian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 9,
+      "event_name": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Austrian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Austrian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "e0c296ba73383780f230030631057a37249aab141cf6eda65bb816821d4da933",
+          "bytes": 401540
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Austrian%20Grand%20Prix/Race/weather.json",
+          "sha256": "5b752d6d475bf9a1874026cb555added6073ac471ac801b53393a417ce6069ff",
+          "bytes": 6656
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Austrian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "5649bb87762b8bbd11b0cb4966ff0eddb96d9efdc1164a73ee4e048a9a0e4f8b",
+          "bytes": 31083
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Austrian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 10,
+      "event_name": "British Grand Prix",
+      "location": "Silverstone",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "British%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/British%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "df980fabf43a206ccaa64fcb787d094a79b287b2aad6689974505c253fec8d9e",
+          "bytes": 293594
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/British%20Grand%20Prix/Race/weather.json",
+          "sha256": "7108f6894f0bdebfb6a4c907715c590acd5945a3e4e7ab3b64e1f4369136cb06",
+          "bytes": 6816
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/British%20Grand%20Prix/Race/rcm.json",
+          "sha256": "1ed851ceb8a13fb38eec3b500c25fc8461de1ee1b8f07a0680bb5e7eef5ecbe4",
+          "bytes": 6025
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/British%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4029c5a6cd72cde93d734b45599bb08a943fe38b34f85e81aba9abe89ba710a7",
+          "bytes": 4356
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 11,
+      "event_name": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Hungarian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Hungarian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "fe83b19521b1f77fc845778ad6411ad2450d1899946994a5e87fda19c106d7d0",
+          "bytes": 370666
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Hungarian%20Grand%20Prix/Race/weather.json",
+          "sha256": "2c0354cec49f4a36c9360d431f461c3649e8890eb998d0508589369aacd848be",
+          "bytes": 7201
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Hungarian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4d7dd4bdd4aafcbf23958226806d2d0cf9546ea8925840c16deec91b2c7f2294",
+          "bytes": 11683
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Hungarian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "6b359c0a5756226e16efcfee2921c39df2d5038e7bc3954d50baeff3fd5f5ad7",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 12,
+      "event_name": "Belgian Grand Prix",
+      "location": "Spa-Francorchamps",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Belgian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Belgian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "2369c358e5d348f78d5ae80b1a08e586766b8460e6d387d7f1eb3292b79c93e1",
+          "bytes": 247682
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Belgian%20Grand%20Prix/Race/weather.json",
+          "sha256": "cf3cc7131f691ef47e7a9606e55a7ac3e63880f96a66f710376c554191860c07",
+          "bytes": 6569
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Belgian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "549de487ad43e4fdead63650f180e21a9ca36c0cb7ca3bb9cab1407e53bb6bed",
+          "bytes": 6784
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Belgian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "80a6b69055b3da126fdb13874088e3151e0a5381d827c54aa28c891187e99771",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 13,
+      "event_name": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Dutch%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Dutch%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "78a54d08a4959f86f922655a73bec49e0c0cf19914e585d48a17dc0756cf2472",
+          "bytes": 405520
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Dutch%20Grand%20Prix/Race/weather.json",
+          "sha256": "815e144c636c0186d7d309ee42d3d4f8bfeb7d37125d740ee08707fa2e75aaea",
+          "bytes": 9421
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Dutch%20Grand%20Prix/Race/rcm.json",
+          "sha256": "e60681312c36b03314288c92b478613383a09b13044d4579f8916fe2fc1db508",
+          "bytes": 9460
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Dutch%20Grand%20Prix/Race/drivers.json",
+          "sha256": "82ea9b8469ad2d491b5ccc3f8ed68743eebff994e287b6f589937a1ad50716ee",
+          "bytes": 4237
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 14,
+      "event_name": "Italian Grand Prix",
+      "location": "Monza",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Italian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Italian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "2f0a735938a169ad99d4567064cef17790b3cfcac01fd4e05edddbaad42ae33d",
+          "bytes": 289226
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Italian%20Grand%20Prix/Race/weather.json",
+          "sha256": "cc9ea3d89ba3e4142e4a12917617df38d2f3fbfe525dbd82890887be41c00a3f",
+          "bytes": 7003
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Italian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "ec3a5de87d0511f8d701c6d8cef48479a179071aa25f4c1df3bee87e57b6db58",
+          "bytes": 6175
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Italian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "82ea9b8469ad2d491b5ccc3f8ed68743eebff994e287b6f589937a1ad50716ee",
+          "bytes": 4237
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 15,
+      "event_name": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Singapore%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Singapore%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "6bfd4c22646f37df52e679e3e773e67d9546678cbc2d8a2dc650567ab894ceaf",
+          "bytes": 327817
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Singapore%20Grand%20Prix/Race/weather.json",
+          "sha256": "8eff54ff7f917fdf6fc29ee430552ed5add328f937b66c4d5110f5f45ea8c4e8",
+          "bytes": 7942
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Singapore%20Grand%20Prix/Race/rcm.json",
+          "sha256": "2b6074bbf6940af1cc163c3b93405603afcaa7a4af46834f82d4b98f72da2b62",
+          "bytes": 9638
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Singapore%20Grand%20Prix/Race/drivers.json",
+          "sha256": "71abbffd23b2e7193ae024992f41f1ea864c6362594d130431f6f673a1fbf9dd",
+          "bytes": 4020
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 16,
+      "event_name": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Japanese%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Japanese%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "a16f580b5ba488abceb224942ed108bc9510ae9acd26e5468cf11a777f6d1a22",
+          "bytes": 265246
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Japanese%20Grand%20Prix/Race/weather.json",
+          "sha256": "5769dd1850acf324e8b43074446cd459b226530ff888fe2851d2e0c994406f35",
+          "bytes": 7104
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Japanese%20Grand%20Prix/Race/rcm.json",
+          "sha256": "170a7e56cb30ea2a277c693fa6b8eca468025cb558fe4cf674668448ba2303b3",
+          "bytes": 9480
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Japanese%20Grand%20Prix/Race/drivers.json",
+          "sha256": "f2ca24bd871b2630b518aef36dc0cc3c46e3ea5618b047090b8460699611d37e",
+          "bytes": 4237
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 17,
+      "event_name": "Qatar Grand Prix",
+      "location": "Lusail",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Qatar%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Qatar%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "6183e5f4cbcb259ba130d2e046685c628ffcac69c7661459f0761ec6084d5804",
+          "bytes": 302881
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Qatar%20Grand%20Prix/Race/weather.json",
+          "sha256": "c8fd6f4e1a92c21e069ddec7ec07aaf61c69c8008b7afc66096d5c1af104181c",
+          "bytes": 7156
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Qatar%20Grand%20Prix/Race/rcm.json",
+          "sha256": "080da973fe1aaceead6a697383bace672e37bca09f8e86e3f0a8b12645b00660",
+          "bytes": 19667
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Qatar%20Grand%20Prix/Race/drivers.json",
+          "sha256": "1a1b306c50b6bb979140400d70c28173d904ad1cb8eea26bd37e0dec7d3cc95d",
+          "bytes": 4025
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 18,
+      "event_name": "United States Grand Prix",
+      "location": "Austin",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "United%20States%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/United%20States%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "7cf3e596d5eba7350be3e01df3baf8222ed44073811e5c30b2455b4d2b1bbe4a",
+          "bytes": 302048
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/United%20States%20Grand%20Prix/Race/weather.json",
+          "sha256": "2a76ce3d9f481b76c3195d8593553565f1eb245590828f26c804da450f28422e",
+          "bytes": 7344
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/United%20States%20Grand%20Prix/Race/rcm.json",
+          "sha256": "bcf5180580418eef43c68af3386fd1548e9dfb528ba10d8458f8cbfb6d4dc0c0",
+          "bytes": 11297
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/United%20States%20Grand%20Prix/Race/drivers.json",
+          "sha256": "7f986546432614983021ac11954057995253edbe0aee18b0f17ed2a4ee4aa12c",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 19,
+      "event_name": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Mexico%20City%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Mexico%20City%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "461ec833223cdefbbe5f6550d5fc1280373857a563c59b46678dc12abab72353",
+          "bytes": 381577
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Mexico%20City%20Grand%20Prix/Race/weather.json",
+          "sha256": "c3d5bfce8c32a5a1836bceb5a4405a1917eac1822e285f54b6eb936d27cdf16c",
+          "bytes": 8393
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Mexico%20City%20Grand%20Prix/Race/rcm.json",
+          "sha256": "f0fabfb5f7c8d355805812c708966b68788d33cd8515a58df1f6a2bd7b4c6f64",
+          "bytes": 11594
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Mexico%20City%20Grand%20Prix/Race/drivers.json",
+          "sha256": "6eeeecd8c0d71bf5b34be6e713aff464b2a25d7dba3d54fab298e2535e1081b2",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 20,
+      "event_name": "São Paulo Grand Prix",
+      "location": "São Paulo",
+      "event_format": "sprint_shootout",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "S%C3%A3o%20Paulo%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/S%C3%A3o%20Paulo%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "c6a70be6ea01d2c56d94a7c8a4a5b45233fbbab163268640ae646f24ae13e612",
+          "bytes": 328744
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/S%C3%A3o%20Paulo%20Grand%20Prix/Race/weather.json",
+          "sha256": "6c1a1d440428079f99f6c46a382e792b3d1bc1824b12b82cdb7eda373bfbea7f",
+          "bytes": 8087
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/S%C3%A3o%20Paulo%20Grand%20Prix/Race/rcm.json",
+          "sha256": "b0ecdf3136cdcafdc4c6ed87d43234f596c4c56daf7e01717eb5397dd7bf62f6",
+          "bytes": 6267
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/S%C3%A3o%20Paulo%20Grand%20Prix/Race/drivers.json",
+          "sha256": "b522a1f0f3d44fa89d4703564d04f9e325a525c7e95b7d98a6a87d4d52bf6431",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 21,
+      "event_name": "Las Vegas Grand Prix",
+      "location": "Las Vegas",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Las%20Vegas%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Las%20Vegas%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "b18c91021ccc18885645a94dc01e2466a9d65677e2f67808129fadb0e3b9f57f",
+          "bytes": 281015
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Las%20Vegas%20Grand%20Prix/Race/weather.json",
+          "sha256": "95a6f2ff09e05c1ef36cb06a6464348f2e2369d2a092ccfdba111ea7364a7b99",
+          "bytes": 4771
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Las%20Vegas%20Grand%20Prix/Race/rcm.json",
+          "sha256": "8cdc7fe59bdfde4e7f7dad7fc1519606f47465ea1e5d86dc4a7a5606e1a566de",
+          "bytes": 9126
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Las%20Vegas%20Grand%20Prix/Race/drivers.json",
+          "sha256": "6eeeecd8c0d71bf5b34be6e713aff464b2a25d7dba3d54fab298e2535e1081b2",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2023,
+      "round": 22,
+      "event_name": "Abu Dhabi Grand Prix",
+      "location": "Yas Island",
+      "event_format": "conventional",
+      "source": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58",
+      "path": "Abu%20Dhabi%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Abu%20Dhabi%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "94d758ca2de0d78be068e7c9818593205450697e27a3062372aafbc5421f22bf",
+          "bytes": 346823
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Abu%20Dhabi%20Grand%20Prix/Race/weather.json",
+          "sha256": "470bdf97f9e7207da014e58368c151b0d5a977bd04000f9ef5463f564bddcf16",
+          "bytes": 7035
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Abu%20Dhabi%20Grand%20Prix/Race/rcm.json",
+          "sha256": "21270675b37a4f775fda900937dfb07857d713fe4fd1fae9449cb9bc23f32b3d",
+          "bytes": 10068
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2023/737c84d3ae14b9883a671ca248d015b69cf1cb58/Abu%20Dhabi%20Grand%20Prix/Race/drivers.json",
+          "sha256": "aa35958da46708f33b4e587dcb5e89fe2f1fcf13e44eb56345ce9225f255f0ea",
+          "bytes": 4241
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 1,
+      "event_name": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Bahrain%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Bahrain%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "508f22e47936ac8de631e21524ed7b9808c1d7e0e52729d22dc5162bf8e04aae",
+          "bytes": 341727
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Bahrain%20Grand%20Prix/Race/weather.json",
+          "sha256": "50d14901d8b3982dd55190ba2467167c3593d63ed0e1167a3b379baba6483975",
+          "bytes": 6962
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Bahrain%20Grand%20Prix/Race/rcm.json",
+          "sha256": "9c5b3cf273d2a2f25235f0e137e1505deb3fc5c50bd8424e98db2cc29ad64994",
+          "bytes": 9199
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Bahrain%20Grand%20Prix/Race/drivers.json",
+          "sha256": "eb28f95809c6cd356f5d6b79147825dcb1d4d64255702c6befd3f314d2e03789",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 2,
+      "event_name": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Saudi%20Arabian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Saudi%20Arabian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "b58090553688af94e51094a4ba9c23b9592471abe40304914423d63aa16b7cf2",
+          "bytes": 270643
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Saudi%20Arabian%20Grand%20Prix/Race/weather.json",
+          "sha256": "8eed30ac96f9b06ae7e65f6ed08072cafd89e670cdc66be6f04df578372b380f",
+          "bytes": 6470
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Saudi%20Arabian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "0696af8a2fd54ecf63a819d622962d56ba0080d5737ca28a359a4322461aa481",
+          "bytes": 9037
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Saudi%20Arabian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "0cc06878beca9227b2c18d070c5728b5a953196323f6260c20a4ae1b2e96edd6",
+          "bytes": 4803
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 3,
+      "event_name": "Australian Grand Prix",
+      "location": "Melbourne",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Australian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Australian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "5c23ec3d774e0500253498719751436b126030cb3dff21f05a86a36ee933b200",
+          "bytes": 296406
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Australian%20Grand%20Prix/Race/weather.json",
+          "sha256": "ce339888f0f63d4b1bfd462b5a913ae3f9486e9a8faa8d3669ebe30c20960dc4",
+          "bytes": 6455
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Australian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "5c931b9c9bbf8b6be4b1a0979fc231d6253c13eaa7e3bbc1e84ef4020a4640d8",
+          "bytes": 10267
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Australian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "e713853212c848ecb29af06608c528dda42a5b5d52cfd26711db06008b13a388",
+          "bytes": 4699
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 4,
+      "event_name": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Japanese%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Japanese%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "7d9e84605701d45ff6463b38ae02eccf626ed76b1e3bf05050ac6d101e26f960",
+          "bytes": 274166
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Japanese%20Grand%20Prix/Race/weather.json",
+          "sha256": "7667c2cbd6e7d7da53fefaca65eadd0eb48b87794d182dedd08d5eeec07aaa12",
+          "bytes": 8183
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Japanese%20Grand%20Prix/Race/rcm.json",
+          "sha256": "e52817c945049f8139623f7be83b6afc04feaad16996b5a3ebe5bcc38083d08c",
+          "bytes": 8640
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Japanese%20Grand%20Prix/Race/drivers.json",
+          "sha256": "55f6860b31bd3a56fc7184e31d87746146acb15adccdd1565606fc3855967a18",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 5,
+      "event_name": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Chinese%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Chinese%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "f143a2604c65f5c8f67c45a57f4a82817a47f9382120f1015cfdc3e483f3901f",
+          "bytes": 308677
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Chinese%20Grand%20Prix/Race/weather.json",
+          "sha256": "fcde7ef09fce34b7031bb097c1208395f63106548f4a911669b6720c494ef351",
+          "bytes": 7435
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Chinese%20Grand%20Prix/Race/rcm.json",
+          "sha256": "fe31efbce320792d199c4ed7839937d3964ce93b0880458c3efb374c228d9703",
+          "bytes": 7800
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Chinese%20Grand%20Prix/Race/drivers.json",
+          "sha256": "bdf624c8dd95f8bd61a8663b16df90fb928520e8efad6f690fea7fa97748e3de",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 6,
+      "event_name": "Miami Grand Prix",
+      "location": "Miami",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Miami%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Miami%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "d894fdeaeb6623f95b3c180e1ff4828cb7b0cb8bebd82b71604efb1ae02503e6",
+          "bytes": 335353
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Miami%20Grand%20Prix/Race/weather.json",
+          "sha256": "c37ffe3b30676a794073588bd7fb423c2e4e618ce691a589b7237a64b493bd04",
+          "bytes": 6775
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Miami%20Grand%20Prix/Race/rcm.json",
+          "sha256": "f73815bd0695de746baac1010428e587a7a50b637c169abd5e8ae0fa264f6089",
+          "bytes": 10904
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Miami%20Grand%20Prix/Race/drivers.json",
+          "sha256": "58b4d4924101a5a93886279bcc4f5a546a5fbf9b78d6aac3b6ec34c1336fe5cd",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 7,
+      "event_name": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Emilia%20Romagna%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Emilia%20Romagna%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "4c5a5953fff3645b8e849ba8e57d044946212588a5aff08354211a57c8d2d6b4",
+          "bytes": 367964
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Emilia%20Romagna%20Grand%20Prix/Race/weather.json",
+          "sha256": "9e894d1be1523a8da6cff6be7f09b869cd308ed0afb3b20095b85085a2550c92",
+          "bytes": 6460
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Emilia%20Romagna%20Grand%20Prix/Race/rcm.json",
+          "sha256": "95d14c64b2252dd1ab66d2f0012f6b07d02e60ec10ad718e389b9d975a97f8b2",
+          "bytes": 12967
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Emilia%20Romagna%20Grand%20Prix/Race/drivers.json",
+          "sha256": "8ef154e9488b27096ca199c6f94d05ca9188c0d5899bf1e359c5f87f38f0ed33",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 8,
+      "event_name": "Monaco Grand Prix",
+      "location": "Monaco",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Monaco%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Monaco%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "18741551095044db359ba204a7ef48f107f7f08a914ebe04773d673ffed23392",
+          "bytes": 368477
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Monaco%20Grand%20Prix/Race/weather.json",
+          "sha256": "c322a0e11b1dec05e0e7f3d080420e8723bb128f0da2eeb7ed0f92aa3515dbe2",
+          "bytes": 8932
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Monaco%20Grand%20Prix/Race/rcm.json",
+          "sha256": "2c0ed794277fa907936d436b11226b76cabdab0dee28c604730c7a0bfb381611",
+          "bytes": 14812
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Monaco%20Grand%20Prix/Race/drivers.json",
+          "sha256": "80508ce01ff397d8746161a4b79fd8ca70d0d36f28ce21ed83f8ffb3de5df1f7",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 9,
+      "event_name": "Canadian Grand Prix",
+      "location": "Montréal",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Canadian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Canadian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "e1615f88a7f610e0cfbcf8a363306930836e13f293fd90039b7644b259c989a7",
+          "bytes": 378843
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Canadian%20Grand%20Prix/Race/weather.json",
+          "sha256": "64d9161667d39760794df19782dcbc525c6d78ab466bb78bbdee23e58a85fee0",
+          "bytes": 4932
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Canadian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "f09951aee3211f472656ebee31e3fec300202a3be0cf451daaf38cb0a3b1063d",
+          "bytes": 17306
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Canadian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "f94b3a82d365794d5f3a9efe8596c79f023ee6c3817865128e02ab2ee9146208",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 10,
+      "event_name": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Spanish%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Spanish%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "02df5d336a49a21f77753c5d420bd963b1962658e5df13623a98109fe45e8e0e",
+          "bytes": 388834
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Spanish%20Grand%20Prix/Race/weather.json",
+          "sha256": "dd1d0c9b918c2436a5fcba84f66900b5685a136fb259aeb90f5dcdf529ac3ba1",
+          "bytes": 6928
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Spanish%20Grand%20Prix/Race/rcm.json",
+          "sha256": "b522b6a6b7e66f96f83c56a13d9ba847f5f75b3c968b18db494df32f377021b1",
+          "bytes": 14592
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Spanish%20Grand%20Prix/Race/drivers.json",
+          "sha256": "1e9a335a01579b30edcfb15aec44841c374ae38028859c97280ccc9aca571afd",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 11,
+      "event_name": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Austrian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Austrian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "92d55b19990ddf215226258700cbf6573f84d941360bd23ca7e809055c168fe4",
+          "bytes": 414639
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Austrian%20Grand%20Prix/Race/weather.json",
+          "sha256": "055f4f770c91ca84f7f204b1dddd9a1dd8dd90c17d753f8d353bc60e89affbdc",
+          "bytes": 6281
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Austrian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "978821915e7711b69b007ba0cb44e6415720dea388589195082bfe049beba9d3",
+          "bytes": 17493
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Austrian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "0d2f6daabce4497e3767f5590030ad88a02f15f8b5cbf121cf9888f9b2c56bbf",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 12,
+      "event_name": "British Grand Prix",
+      "location": "Silverstone",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "British%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/British%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "9bc8b6b5cc4c4ba625564510e97514e0da4a87c43a6be9eb76dfff31d0306f8f",
+          "bytes": 290287
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/British%20Grand%20Prix/Race/weather.json",
+          "sha256": "19c8c5adb096062f17d2cc1a320ad82db1842543275320f4b28d63b4d98f0f54",
+          "bytes": 6418
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/British%20Grand%20Prix/Race/rcm.json",
+          "sha256": "25180d462d767ac3292ca6764b9c09099648501f78a9ea8851b40720c985cf57",
+          "bytes": 13617
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/British%20Grand%20Prix/Race/drivers.json",
+          "sha256": "51cb1093a1489c0c75bc4b66382897415f69bc7208fe193b2138cde358bca8bd",
+          "bytes": 4945
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 13,
+      "event_name": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Hungarian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Hungarian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "8b54e4729b09ce3702c6e85c1987c088a459e3ad1d76ca3bfb2d06ee6d8cbbd6",
+          "bytes": 399153
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Hungarian%20Grand%20Prix/Race/weather.json",
+          "sha256": "c2ea826f9285970ac736826c54bd47480ebbba5f1d778f114759ad9b9a34e373",
+          "bytes": 6821
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Hungarian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "0954b065b75d20082390cb851e243c62dd86f683b7aa4a0f8428d262c3530106",
+          "bytes": 9853
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Hungarian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "1be98d7c4f888de9a36aa604207d56807b3c571773e2d49c954686f7a7e01aad",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 14,
+      "event_name": "Belgian Grand Prix",
+      "location": "Spa-Francorchamps",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Belgian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Belgian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "a9a186540927be42220ba5a334ea2be0039a798c4e975131b264ac8cefd15cf5",
+          "bytes": 254026
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Belgian%20Grand%20Prix/Race/weather.json",
+          "sha256": "41d325f4e4b0fb248aa153c0283955959fb26247749d359127e72571bc39806a",
+          "bytes": 5962
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Belgian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4f4ac5117cb5f34298cc61dadbcb66de218ac9ae53f2db066fd5fa377984a315",
+          "bytes": 2939
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Belgian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "6f97629de5e0baa5d3ca64681b9fa19ba961622cfa0211badc267ec9f29decf0",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 15,
+      "event_name": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Dutch%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Dutch%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "a660b5bb6dacca514422e5b380e2f2e0e7a25558f094e9ec524860ee5ee5b2d3",
+          "bytes": 425795
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Dutch%20Grand%20Prix/Race/weather.json",
+          "sha256": "8ec54435bbf4a0e0daf73d6bb3a0717875b47defd24ae488ed462cfd5d36a824",
+          "bytes": 6911
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Dutch%20Grand%20Prix/Race/rcm.json",
+          "sha256": "be3dc4a8cf2cf20964223fa1320e7d8463737f4a28a635231eeef5ce31a25384",
+          "bytes": 10587
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Dutch%20Grand%20Prix/Race/drivers.json",
+          "sha256": "704bb6b6bac234afc6e8762fed3e48129b2fee4fc53c583c5781012610f3e7cb",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 16,
+      "event_name": "Italian Grand Prix",
+      "location": "Monza",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Italian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Italian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "134ff7c536b7841acc853de60827782b7b3fd1d0d102d966ddc056bd80064252",
+          "bytes": 298563
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Italian%20Grand%20Prix/Race/weather.json",
+          "sha256": "230b4d797f301c82da899e3d2101e2c90e55fb963345f7ac951576af1ceb3713",
+          "bytes": 5880
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Italian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "f6ac61603c1268a9aebf764265fdab213a54a484f98d5c5d29b20a6eb803b269",
+          "bytes": 8371
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Italian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "ec01b61f1a3c2a162a94290b0d9adf0138b9c7792424269384310ff539f643b8",
+          "bytes": 4802
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 17,
+      "event_name": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Azerbaijan%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Azerbaijan%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "402a85a56fae4021ab114de97dac3a662b9f1b82a203275121ef47a05ac2694b",
+          "bytes": 293077
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Azerbaijan%20Grand%20Prix/Race/weather.json",
+          "sha256": "f5797198b30ed86a99ab803d9a7c6846ddd58ddec7476cfd4da6748f010a2044",
+          "bytes": 6781
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Azerbaijan%20Grand%20Prix/Race/rcm.json",
+          "sha256": "6406a59a5588fcbaecb4c0f9128d371dc3e4353ea57b0d254b9bd8a68d67a51b",
+          "bytes": 13288
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Azerbaijan%20Grand%20Prix/Race/drivers.json",
+          "sha256": "c5fe1979b644c3e20f98d6efb41126231b1064ba22eaaf709436d912e404f75a",
+          "bytes": 4654
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 18,
+      "event_name": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Singapore%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Singapore%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "306eb0a16c9625765baa47ecf0447700ea1e89e0cee3f3f11efead8f51db8f7e",
+          "bytes": 353418
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Singapore%20Grand%20Prix/Race/weather.json",
+          "sha256": "1a1f9c93e47ab575dd3d9ddba7255b1b746864127905603b9eac39f619d335b2",
+          "bytes": 7199
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Singapore%20Grand%20Prix/Race/rcm.json",
+          "sha256": "8e2041831b6ad7c459a7909302e8d32552753b521b4844080d7511a61fc24655",
+          "bytes": 8484
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Singapore%20Grand%20Prix/Race/drivers.json",
+          "sha256": "28b1764a24b3234c05d114859a8c1570b0dd93164d8fccb3eecc9fd374d42214",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 19,
+      "event_name": "United States Grand Prix",
+      "location": "Austin",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "United%20States%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/United%20States%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "1df2560f68c934ecf18346346e64fe06e058c8a1ac6613673a7dd06f186b0829",
+          "bytes": 315889
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/United%20States%20Grand%20Prix/Race/weather.json",
+          "sha256": "38a93a1f7f8ab2c44b41b6d6a2c1ebc4f33e11c66810057451b56b19c43530b3",
+          "bytes": 6966
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/United%20States%20Grand%20Prix/Race/rcm.json",
+          "sha256": "8f1f61d87b14cdbf3821b506fb080f9d99d564397bfb973154537e094b488f1b",
+          "bytes": 17056
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/United%20States%20Grand%20Prix/Race/drivers.json",
+          "sha256": "45dee2f4ea116ed84f534da9ec49f5040e9fd189b368ce618852626a3b6316f9",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 20,
+      "event_name": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Mexico%20City%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Mexico%20City%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "93fcf2d6f3844d38946f2cdbfff064c8c50d267d9fa7025522a728379d8e2bb4",
+          "bytes": 360142
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Mexico%20City%20Grand%20Prix/Race/weather.json",
+          "sha256": "ab4006326db308dab21262552d9cb31d87dc2f521078f4bf99eb08fd5fbd0015",
+          "bytes": 7012
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Mexico%20City%20Grand%20Prix/Race/rcm.json",
+          "sha256": "03c49726e683dda05a48d7f07b2372b6e4af31b2b43ada80fb9d149b2236492c",
+          "bytes": 15230
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Mexico%20City%20Grand%20Prix/Race/drivers.json",
+          "sha256": "e2ae432e82740dab44f0b5fb1e96c8efc0b9b4623de5c051f91578208ca98cfd",
+          "bytes": 809
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 21,
+      "event_name": "São Paulo Grand Prix",
+      "location": "São Paulo",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "S%C3%A3o%20Paulo%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/S%C3%A3o%20Paulo%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "95e3961dc307483394712d7d0e6d83aafb98a110d82acdeea765530b70df17fb",
+          "bytes": 344743
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/S%C3%A3o%20Paulo%20Grand%20Prix/Race/weather.json",
+          "sha256": "a4bc3368575375eea484793655d2ba2d5cea4ba6c8ad94894f5711665e48c011",
+          "bytes": 8728
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/S%C3%A3o%20Paulo%20Grand%20Prix/Race/rcm.json",
+          "sha256": "3281cd7a7caa5aeb8b356d59dbe3b0fb5525a5425bcdee16280e80f6457bd1c6",
+          "bytes": 14137
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/S%C3%A3o%20Paulo%20Grand%20Prix/Race/drivers.json",
+          "sha256": "d02a8771e357b8a470d8f259be28454da1dbd9cfebb6d75a4e248bf2dc8442a7",
+          "bytes": 770
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 22,
+      "event_name": "Las Vegas Grand Prix",
+      "location": "Las Vegas",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Las%20Vegas%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Las%20Vegas%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "2357229b2cf0f6dcf8ad6c6b9b0487117b8395a84b4d7c914248d5e7395c3131",
+          "bytes": 277751
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Las%20Vegas%20Grand%20Prix/Race/weather.json",
+          "sha256": "b6763263f494fcd180a78f0d8b570ffdc40e52d3eddfc3e2a8afff8f26746d83",
+          "bytes": 6318
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Las%20Vegas%20Grand%20Prix/Race/rcm.json",
+          "sha256": "90ebbd5e75aabfdd442673b97998bffdabc87592bf7cfa628247593d39f719b7",
+          "bytes": 4896
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Las%20Vegas%20Grand%20Prix/Race/drivers.json",
+          "sha256": "34bbdeb16e96ab7f5309d7803358ccb666e4af6038ba4e17a190578585b839f8",
+          "bytes": 4650
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 23,
+      "event_name": "Qatar Grand Prix",
+      "location": "Lusail",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Qatar%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Qatar%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "861c6b257d2748454f7cacdc42da27fe35ac9d0eb8d7ef327d471b20fd8d0f89",
+          "bytes": 282427
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Qatar%20Grand%20Prix/Race/weather.json",
+          "sha256": "4aab923f5f5fa403171c81b58af9cc9036dab1375d84fb3e0de96ff5106775f0",
+          "bytes": 6677
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Qatar%20Grand%20Prix/Race/rcm.json",
+          "sha256": "1d9d39707d94125bcd473d1c8bc0e82c93c89befe0bdf9b53093378a9fc7805f",
+          "bytes": 15385
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Qatar%20Grand%20Prix/Race/drivers.json",
+          "sha256": "be9671b46fae2240d83c0f2e97357444b02d2ba44e320b6777e2cfb17e8d4b74",
+          "bytes": 4650
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2024,
+      "round": 24,
+      "event_name": "Abu Dhabi Grand Prix",
+      "location": "Yas Island",
+      "event_format": "conventional",
+      "source": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e",
+      "path": "Abu%20Dhabi%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Abu%20Dhabi%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "dd5ddd6cafdcbdb8e62672626a6a3ac375bb707ff9dd29f874721604835bfb7f",
+          "bytes": 309443
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Abu%20Dhabi%20Grand%20Prix/Race/weather.json",
+          "sha256": "acbb7b064a7148958d6f89f5252de052f2af66741f5a7dff786a51351f88392a",
+          "bytes": 6657
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Abu%20Dhabi%20Grand%20Prix/Race/rcm.json",
+          "sha256": "9a8186142b06ad2f99a44952e4ae4beb58845ea365649f3d12457820525830a6",
+          "bytes": 17695
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2024/d1543a71370d9b617b627319f8ad80b2f85dfd5e/Abu%20Dhabi%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4a83def274c72ea97d0ae6b9f222e1a5059c3deceb16ab376a03fa4eb191d517",
+          "bytes": 4505
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 1,
+      "event_name": "Australian Grand Prix",
+      "location": "Melbourne",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Australian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Australian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "378bc198032dfd7e14feed953e398f892ad593e99ed7aca6001af51202520051",
+          "bytes": 283850
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Australian%20Grand%20Prix/Race/weather.json",
+          "sha256": "38d119179676cc3ddabc25dd0a31187e062fc38f38b0b6cadcc442f95a3b163d",
+          "bytes": 7982
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Australian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "aecbcb634ea4ab599d31ad964ad525cd7245d237ac04fb9fb5572d4caa8e3bc5",
+          "bytes": 13993
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Australian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "2e4c304126fe697a117257e62949c99ac9cc4af5b8b146a3b094bc4bd4cfe6b8",
+          "bytes": 4972
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 2,
+      "event_name": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Chinese%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Chinese%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "bf8090b40c5ff71fb8783fc36f6c5524ec3af2e76e767d5c9bed942aae7ea4b9",
+          "bytes": 317630
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Chinese%20Grand%20Prix/Race/weather.json",
+          "sha256": "2bac1ff38e2eeca20fb027fb900f6d6a22b3f3f936df1072c0f75d85a035b6c1",
+          "bytes": 6950
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Chinese%20Grand%20Prix/Race/rcm.json",
+          "sha256": "365529109c9857a5b4951c3fe0fb8fe879e919ba740257e01bf14adf1dcff0d4",
+          "bytes": 7730
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Chinese%20Grand%20Prix/Race/drivers.json",
+          "sha256": "c7888df3052d02722fef77e842e3066276d8e673dcc176d78eb461b128a1c8ac",
+          "bytes": 4965
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 3,
+      "event_name": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Japanese%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Japanese%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "b04f854e18525d38f50c4942251e7f0e9d678d2c3a4b1316f955457d333d6bb8",
+          "bytes": 320442
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Japanese%20Grand%20Prix/Race/weather.json",
+          "sha256": "538e4cb9d35a0210d286dfb4e0d134aca77b7aba240f3c0a2e656583b7e21b28",
+          "bytes": 6295
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Japanese%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4fb9d24e0c7cd74a1ad777f671069f9dd2fa5ebe42e8e454491bc75e7d9f7c4c",
+          "bytes": 3394
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Japanese%20Grand%20Prix/Race/drivers.json",
+          "sha256": "0360fde4df7fff3240704121cfc24a15aa65c34ed515c8cc58c85a77ed9dbf17",
+          "bytes": 4965
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 4,
+      "event_name": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Bahrain%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Bahrain%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "86297609adcad2d2b491857db50783f07b99dbb89d329782b57602764b3f4132",
+          "bytes": 343445
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Bahrain%20Grand%20Prix/Race/weather.json",
+          "sha256": "29444ecd1b30f4da37b7fed81a95d8a5d6ba311fe206b0aba60be91e15b8ec74",
+          "bytes": 6967
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Bahrain%20Grand%20Prix/Race/rcm.json",
+          "sha256": "afdecd277910ec1f4060e59d4e6dbf01394cfdbd53c3f2ef5509716150635cad",
+          "bytes": 13477
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Bahrain%20Grand%20Prix/Race/drivers.json",
+          "sha256": "56541a8cae2e4bbc070222ba7549df8ad3d2a54dc24c1765ad6f1f6092df477d",
+          "bytes": 4965
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 5,
+      "event_name": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Saudi%20Arabian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Saudi%20Arabian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "49990d1c40645fff3a826b35e9d029cd743618c4abb197cc202a779b19c69fa6",
+          "bytes": 271654
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Saudi%20Arabian%20Grand%20Prix/Race/weather.json",
+          "sha256": "364606ae3e49b11a7b80f60251cf44d34453bc7a575f76af7e0b0675f46cc0ce",
+          "bytes": 6389
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Saudi%20Arabian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "3f4379f2184f78714512360b25ce277d2efd7e250ca38078d44e4e8ff96033b6",
+          "bytes": 8861
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Saudi%20Arabian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "058de4824a945ba44bdd7c2aba4e3d2cc5fb334724df71433027863b25e369d2",
+          "bytes": 4965
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 6,
+      "event_name": "Miami Grand Prix",
+      "location": "Miami Gardens",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Miami%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Miami%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "43dd0d48764018a53d870487c534c55674604159f9519b89b0072f8e62bc79e8",
+          "bytes": 301736
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Miami%20Grand%20Prix/Race/weather.json",
+          "sha256": "99a6521a2cc2e8c570554f8dc291f9c60e533ee426e41e9124b94bd18f12700a",
+          "bytes": 6675
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Miami%20Grand%20Prix/Race/rcm.json",
+          "sha256": "2a51451773d007c3ef7055571e8964c9319ca66a8dc33d37d51181604bd7d30e",
+          "bytes": 9910
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Miami%20Grand%20Prix/Race/drivers.json",
+          "sha256": "8f97319c9dff66fe039ba9f842736e68d321ad9aeb59045222313a6fbb864a1f",
+          "bytes": 4965
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 7,
+      "event_name": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Emilia%20Romagna%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Emilia%20Romagna%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "ab4c72412ef5e1b38c72fb09873624f76c4d671e063d670295885b1602802411",
+          "bytes": 359494
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Emilia%20Romagna%20Grand%20Prix/Race/weather.json",
+          "sha256": "a4ede46d96272da318915de148e43f8e9aaccab57748d13cb5f6195ea23c0525",
+          "bytes": 6772
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Emilia%20Romagna%20Grand%20Prix/Race/rcm.json",
+          "sha256": "9bd7da7f63cd6eaf6a64b36806a7bf0dd111a998145cd15d21a25b0012042ad4",
+          "bytes": 5708
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Emilia%20Romagna%20Grand%20Prix/Race/drivers.json",
+          "sha256": "18d6e22519bec57f5c6d8042d8f63431cc15149dd8677033e6a3fdfad5ec9013",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 8,
+      "event_name": "Monaco Grand Prix",
+      "location": "Monaco",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Monaco%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Monaco%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "ce0f9f3760852fbb74befd70eff28334e18582c668f15f67311df490b65b819a",
+          "bytes": 424667
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Monaco%20Grand%20Prix/Race/weather.json",
+          "sha256": "99be33e09e6bd29051a5b24b058aff8accc64eccce801662294d55fc9ae36764",
+          "bytes": 7172
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Monaco%20Grand%20Prix/Race/rcm.json",
+          "sha256": "0a689a9988812bf1fd6074102cad020f5fc1ea056837679c84597c5326fbdeef",
+          "bytes": 25904
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Monaco%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 9,
+      "event_name": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Spanish%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Spanish%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "dcc54359146f7480a07db4dbdfc1ff7fb714b1082a474b56c6b7d25f970d9d09",
+          "bytes": 357788
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Spanish%20Grand%20Prix/Race/weather.json",
+          "sha256": "397b8aa6c1d25c0c14882567a52190243aa5ea4003ea2a245d94c14218d7d67e",
+          "bytes": 6908
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Spanish%20Grand%20Prix/Race/rcm.json",
+          "sha256": "5f0999a5e08e90895efea278c06fde0db7d443d131693feddef89da7c3748a03",
+          "bytes": 14053
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Spanish%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4772589d1303240f42e619f78043e39a809ccd2f94d9d1ced5e7895bb6f1e76d",
+          "bytes": 4581
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 10,
+      "event_name": "Canadian Grand Prix",
+      "location": "Montréal",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Canadian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Canadian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "8b38e1478c6bb5d2686c7773678a7e4ee4d49db0de9319fdb4d3096da209e7a4",
+          "bytes": 398677
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Canadian%20Grand%20Prix/Race/weather.json",
+          "sha256": "cdf275c093ad35a86bb122e3014953cb7beee21a556038c638ba6818093fe789",
+          "bytes": 7474
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Canadian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "58c82c4d7872d85346742e7e39a4f793eb735671fdb3b727706c0479d220ee4c",
+          "bytes": 13269
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Canadian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 11,
+      "event_name": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Austrian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Austrian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "c3aa92885cd1f0ad8698f0484cfa1689a3478edade97eb609683db3e9f0a1cb3",
+          "bytes": 333989
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Austrian%20Grand%20Prix/Race/weather.json",
+          "sha256": "e3592786fc51466c2ba252f081c820a18b3897a4c00d905a58cd26b896f78ac8",
+          "bytes": 6973
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Austrian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "f4a431e33fede7bee8fe0d03cbe484fcaa6c7046f2379fb3c342fa646290e69d",
+          "bytes": 15340
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Austrian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "6c9e3e1dcc98d0c356972f13218b34d065dad4edd70861ccfbe4f1e26830907d",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 12,
+      "event_name": "British Grand Prix",
+      "location": "Silverstone",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "British%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/British%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "e36759a4c96a91ce56e35c05e66ec3565edfbf5b6e641c5137bcfa0d727cbf93",
+          "bytes": 254210
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/British%20Grand%20Prix/Race/weather.json",
+          "sha256": "ce93f10ad29a235432211c4811924ef23dad21b48a03f10030222ed0bd6c44c9",
+          "bytes": 6728
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/British%20Grand%20Prix/Race/rcm.json",
+          "sha256": "cf9d5cd35ce4406752b5d739c12bd9b19bd25c709cc1bf579039b7107307f9cc",
+          "bytes": 18736
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/British%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 13,
+      "event_name": "Belgian Grand Prix",
+      "location": "Spa-Francorchamps",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Belgian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Belgian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "9ab023b35d420a998308a302d00521e2a6491a554808aa27aa5e77b9936d9327",
+          "bytes": 274314
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Belgian%20Grand%20Prix/Race/weather.json",
+          "sha256": "68277210686a8e10b5c060cf330f48fe435932df026748a9d92644b0e83d5f2e",
+          "bytes": 9759
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Belgian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4ac336ce54ec9db6f0d056fc48c53621065f0af07256e04ed5ae9760a520076f",
+          "bytes": 13516
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Belgian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "285f3971cb98cb0d2743b683c6fadcc53bd5b0509e5c75873b8d6771b0e50317",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 14,
+      "event_name": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Hungarian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Hungarian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "23bf3306c1f8146b9e58ba539a8d440b0ac01c17f55b66d45d0bb8cdb6e558ee",
+          "bytes": 406265
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Hungarian%20Grand%20Prix/Race/weather.json",
+          "sha256": "f00695ad5dd3bce452fbd62d93bfc4d67b72509332b8fab1fc59596236cd3126",
+          "bytes": 6935
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Hungarian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "73a4a653bc04dc49a38cd941404ee1b2ee0fe30e3f0fa28f5db469748db4e338",
+          "bytes": 13001
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Hungarian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "67a1bb433af22655869e6c874e729e7b1a0a10ab7c64395205a4f5daa9ebbf43",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 15,
+      "event_name": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Dutch%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Dutch%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "4af7dcc81901d53223778e39d1db754ce3d766c5656c66342ca31c9465bd9ef2",
+          "bytes": 410955
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Dutch%20Grand%20Prix/Race/weather.json",
+          "sha256": "0c669757a69b157ba5e088d769737b2281a84aea0967a166375dc6179d6a63cf",
+          "bytes": 7181
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Dutch%20Grand%20Prix/Race/rcm.json",
+          "sha256": "d42ca8fce2f3abada5ecb9a745e577d187318b40fec0a0aebea07c598d31561a",
+          "bytes": 14048
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Dutch%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 16,
+      "event_name": "Italian Grand Prix",
+      "location": "Monza",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Italian%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Italian%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "edfaad7aa21fa23a588bb4a1f4b5805e0fe97d637f3ab205c5aff48012f47b84",
+          "bytes": 290697
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Italian%20Grand%20Prix/Race/weather.json",
+          "sha256": "d81fd9f906659e025b0124f7aa20c99d54f31537e4e4c31615a2eb24cd4b04e2",
+          "bytes": 6346
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Italian%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4fbabcea43ef8c11b17a506f69b9cfea7537c4e9937dfaa7cdef543a02a284a2",
+          "bytes": 10565
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Italian%20Grand%20Prix/Race/drivers.json",
+          "sha256": "1d30a95f0bd8abadd324a23ae6b276d66c2950653e500d282109ee886babbae0",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 17,
+      "event_name": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Azerbaijan%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Azerbaijan%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "2574b4a649349e551ab3f47140b3427bac8984074ce3bdf682333ddce7eeeae3",
+          "bytes": 294132
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Azerbaijan%20Grand%20Prix/Race/weather.json",
+          "sha256": "3fed6570cd5f06ad5b534e1a73634597edc2741b4e802161d24c1ba1551acd03",
+          "bytes": 6987
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Azerbaijan%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4b59e31dd383cdb0ed0477bb8336b80a44deff50bb29f080438f02b3cba3ce04",
+          "bytes": 8597
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Azerbaijan%20Grand%20Prix/Race/drivers.json",
+          "sha256": "198f481944bbf00c130083b98a557446673a90b27b9bbefbce5408c4a0e49bb0",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 18,
+      "event_name": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Singapore%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Singapore%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "c0cdab41909df2ed32eb52d05d0e0f903f967bc077e9bd44aaa5391c7427d34b",
+          "bytes": 369915
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Singapore%20Grand%20Prix/Race/weather.json",
+          "sha256": "d3b7bd99a733aaeb8ff22a75876d30429fbf2421846a94d11f8352bfd6742d7d",
+          "bytes": 7237
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Singapore%20Grand%20Prix/Race/rcm.json",
+          "sha256": "fd7d225244d9a37aad1b36d3ddb2ce0072cb8b08527735644b04189190e5b128",
+          "bytes": 16082
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Singapore%20Grand%20Prix/Race/drivers.json",
+          "sha256": "acc29783b791ea82ca876f2d542b23366025e7b043d8b349c7dce36f2d896545",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 19,
+      "event_name": "United States Grand Prix",
+      "location": "Austin",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "United%20States%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/United%20States%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "9ade840b04ea8102e7b1c0ff76616cea4583f2d16ce697296e0cc542588ddf67",
+          "bytes": 320911
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/United%20States%20Grand%20Prix/Race/weather.json",
+          "sha256": "2149dfb3b5dc729dff59c7814d4ce2cedba95a50625ecdbf5f8770b102793f8b",
+          "bytes": 6951
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/United%20States%20Grand%20Prix/Race/rcm.json",
+          "sha256": "a73a18527cff792dc0c0345021fb7a3e0e6e22414611977172ce155847880f88",
+          "bytes": 10933
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/United%20States%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 20,
+      "event_name": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Mexico%20City%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Mexico%20City%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "a4e9eabce2b84dc069403ef30c478c5aafd40b82d32d4de2fc8a335ba140bd0e",
+          "bytes": 376414
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Mexico%20City%20Grand%20Prix/Race/weather.json",
+          "sha256": "61600db4b91dcb05b85c057bf1ef9f62f1150e174716b83acdc79d281031ea1d",
+          "bytes": 7145
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Mexico%20City%20Grand%20Prix/Race/rcm.json",
+          "sha256": "6e4cbc03adacdeff075ea5a7e2ea2ec921eb64918767e3d1bfd0db817f9cf0f2",
+          "bytes": 11096
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Mexico%20City%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 21,
+      "event_name": "São Paulo Grand Prix",
+      "location": "São Paulo",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "S%C3%A3o%20Paulo%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/S%C3%A3o%20Paulo%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "2cafa82d3b238dd20a04d70f3599b1431a10d65aaeb7e2a664e2ea524461ec31",
+          "bytes": 372998
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/S%C3%A3o%20Paulo%20Grand%20Prix/Race/weather.json",
+          "sha256": "1597da8e75feb5c4cbbafbe7a9b4f7463b0540e47a448a003f9152089057834f",
+          "bytes": 6702
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/S%C3%A3o%20Paulo%20Grand%20Prix/Race/rcm.json",
+          "sha256": "464f46babfe4b655bbd9b5986abb1d260dc14a4b235b162b913672932d73037d",
+          "bytes": 7416
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/S%C3%A3o%20Paulo%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 22,
+      "event_name": "Las Vegas Grand Prix",
+      "location": "Las Vegas",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Las%20Vegas%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Las%20Vegas%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "3358363d91205ace9f34434ea4a8ae50e40183a665903c20628d1975ad646ec6",
+          "bytes": 264423
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Las%20Vegas%20Grand%20Prix/Race/weather.json",
+          "sha256": "6312dbbdaa1bcf3405dc8db86cc2e1b8fd8f8c26ffcd9aa87fd2eda260ba6ea5",
+          "bytes": 6212
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Las%20Vegas%20Grand%20Prix/Race/rcm.json",
+          "sha256": "01ae40fa87b6856e2ac8dbb3220753a5cecfbcd89993d426c8aba85536968236",
+          "bytes": 8097
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Las%20Vegas%20Grand%20Prix/Race/drivers.json",
+          "sha256": "4bfe27df3e9925e4895b5af15201ac04154c74d6e0d45f7f9672314f9c7e119d",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 23,
+      "event_name": "Qatar Grand Prix",
+      "location": "Lusail",
+      "event_format": "sprint_qualifying",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Qatar%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Qatar%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "9b4b21d3f2442941e1aabf47dabe39ebf42f55a4d0f661bef1a67847f8e7534b",
+          "bytes": 321007
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Qatar%20Grand%20Prix/Race/weather.json",
+          "sha256": "8ecf4aa63fa180ec9d76a179b21ff5b6e95b57b74198b6be5b84fae1d70f6e2f",
+          "bytes": 6651
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Qatar%20Grand%20Prix/Race/rcm.json",
+          "sha256": "4e2742b304dcf449fc957ab6819664f455f27953f5ee9ab09ad322698728bcb1",
+          "bytes": 11275
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Qatar%20Grand%20Prix/Race/drivers.json",
+          "sha256": "565a4a288dec052a5479a8b9fda288a22e6a89d8ed6882c2f77f411d5d09ad1e",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    },
+    {
+      "year": 2025,
+      "round": 24,
+      "event_name": "Abu Dhabi Grand Prix",
+      "location": "Yas Island",
+      "event_format": "conventional",
+      "source": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a",
+      "path": "Abu%20Dhabi%20Grand%20Prix/Race/",
+      "files": [
+        {
+          "name": "session_laptimes.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Abu%20Dhabi%20Grand%20Prix/Race/session_laptimes.json",
+          "sha256": "13038791d00e637132ea09679185534430643aed0aa1f085135af8de7692ec6e",
+          "bytes": 348324
+        },
+        {
+          "name": "weather.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Abu%20Dhabi%20Grand%20Prix/Race/weather.json",
+          "sha256": "deee50817fa7be3fab340fd6e913b2f0af241a541f0b5c98f58d6c0238f79b72",
+          "bytes": 6917
+        },
+        {
+          "name": "rcm.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Abu%20Dhabi%20Grand%20Prix/Race/rcm.json",
+          "sha256": "ba6d8a50e87329261d8790889921b5231889bd90a154aa813c39d32b0c2b0e44",
+          "bytes": 16571
+        },
+        {
+          "name": "drivers.json",
+          "url": "https://raw.githubusercontent.com/TracingInsights/2025/dfb3ea3f50b69857fe8e40cabe5e899743c59f6a/Abu%20Dhabi%20Grand%20Prix/Race/drivers.json",
+          "sha256": "5002ba0af4de8cb0385758a57f618cc42414e398ddc4cc808382b9cad8f1e9d8",
+          "bytes": 4828
+        }
+      ],
+      "source_errors": []
+    }
+  ]
+}

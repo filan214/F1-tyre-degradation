@@ -1,0 +1,71 @@
+race_id,year,round,event_name,circuit,split,n_laps_raw,n_laps_clean,wet_compound_share,any_rainfall,auto_include,auto_exclude_reason,include,exclude_reason,manual_override,manual_note,error_detail,unknown_compound_share,clean_fraction,red_flag_session,drivers_without_laps,data_source,source_commit,review_reasons,needs_manual_review
+2023_01,2023,1,Bahrain Grand Prix,Sakhir,train,1056,872,0.0,False,True,,True,,,,,0.0,0.8257575757575758,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_02,2023,2,Saudi Arabian Grand Prix,Jeddah,train,943,809,0.0,False,True,,True,,,,,0.0,0.8579003181336161,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_03,2023,3,Australian Grand Prix,Melbourne,train,1003,737,0.0,False,True,,True,,,,,0.0,0.7347956131605184,True,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,red_flag_session,True
+2023_04,2023,4,Azerbaijan Grand Prix,Baku,train,962,803,0.0,False,True,,True,,,,,0.0,0.8347193347193347,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_05,2023,5,Miami Grand Prix,Miami,train,1138,1071,0.0,False,True,,True,,,,,0.0,0.9411247803163445,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_06,2023,6,Monaco Grand Prix,Monaco,train,1515,909,0.29306930693069305,True,False,wet_compound,False,wet_compound,,,,0.0,0.6,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_07,2023,7,Spanish Grand Prix,Barcelona,train,1312,1198,0.0,False,True,,True,,,,,0.0,0.913109756097561,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_08,2023,8,Canadian Grand Prix,Montréal,train,1317,1031,0.0,False,True,,True,,,,,0.026575550493545937,0.782839787395596,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,unknown_compound,True
+2023_09,2023,9,Austrian Grand Prix,Spielberg,train,1354,1087,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.8028064992614475,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,rainfall_without_wet_threshold,True
+2023_10,2023,10,British Grand Prix,Silverstone,train,971,787,0.0,False,True,,True,,,,,0.0,0.8105046343975283,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_11,2023,11,Hungarian Grand Prix,Budapest,train,1252,1124,0.0,False,True,,True,,,,,0.0,0.8977635782747604,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_12,2023,12,Belgian Grand Prix,Spa-Francorchamps,train,816,653,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.8002450980392157,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,rainfall_without_wet_threshold,True
+2023_13,2023,13,Dutch Grand Prix,Zandvoort,train,1343,755,0.24422933730454208,True,False,wet_compound,False,wet_compound,,,,0.0,0.5621742367833209,True,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,red_flag_session,True
+2023_14,2023,14,Italian Grand Prix,Monza,train,958,864,0.0,False,True,,True,,,,,0.0,0.9018789144050104,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_15,2023,15,Singapore Grand Prix,Marina Bay,train,1088,829,0.0,False,True,,True,,,,,0.0,0.7619485294117647,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_16,2023,16,Japanese Grand Prix,Suzuka,train,880,672,0.0,False,True,,True,,,,,0.0,0.7636363636363637,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_17,2023,17,Qatar Grand Prix,Lusail,train,1006,759,0.0,False,True,,True,,,,,0.0,0.7544731610337972,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_18,2023,18,United States Grand Prix,Austin,train,1014,880,0.0,False,True,,True,,,,,0.0,0.8678500986193294,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_19,2023,19,Mexico City Grand Prix,Mexico City,train,1282,1048,0.0,False,True,,True,,,,,0.0,0.8174726989079563,True,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,red_flag_session,True
+2023_20,2023,20,São Paulo Grand Prix,São Paulo,train,1109,972,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.8764652840396754,True,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,rainfall_without_wet_threshold;red_flag_session,True
+2023_21,2023,21,Las Vegas Grand Prix,Las Vegas,train,946,639,0.0,False,True,,True,,,,,0.0,0.6754756871035941,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2023_22,2023,22,Abu Dhabi Grand Prix,Yas Island,train,1157,1032,0.0,False,True,,True,,,,,0.0,0.891961970613656,False,,TracingInsights/2023,737c84d3ae14b9883a671ca248d015b69cf1cb58,,False
+2024_01,2024,1,Bahrain Grand Prix,Sakhir,train,1129,988,0.0,False,True,,True,,,,,0.0,0.87511071744907,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_02,2024,2,Saudi Arabian Grand Prix,Jeddah,train,901,785,0.0,False,True,,True,,,,,0.0,0.8712541620421753,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_03,2024,3,Australian Grand Prix,Melbourne,train,998,851,0.0,False,True,,True,,,,,0.0,0.8527054108216433,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_04,2024,4,Japanese Grand Prix,Suzuka,train,907,750,0.0,False,True,,True,,,,,0.0,0.8269018743109151,True,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,red_flag_session,True
+2024_05,2024,5,Chinese Grand Prix,Shanghai,train,1032,739,0.0,False,True,,True,,,,,0.0,0.7160852713178295,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_06,2024,6,Miami Grand Prix,Miami,train,1111,915,0.0,False,True,,True,,,,,0.0,0.8235823582358236,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_07,2024,7,Emilia Romagna Grand Prix,Imola,train,1238,1153,0.0,False,True,,True,,,,,0.0,0.931340872374798,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_08,2024,8,Monaco Grand Prix,Monaco,train,1237,1152,0.0,False,True,,True,,,,,0.0,0.931285367825384,True,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,red_flag_session,True
+2024_09,2024,9,Canadian Grand Prix,Montréal,train,1272,231,0.6650943396226415,True,False,wet_compound,False,wet_compound,,,,0.0,0.18160377358490565,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_10,2024,10,Spanish Grand Prix,Barcelona,train,1310,1192,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.9099236641221374,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,rainfall_without_wet_threshold,True
+2024_11,2024,11,Austrian Grand Prix,Spielberg,train,1405,1240,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.8825622775800712,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,rainfall_without_wet_threshold,True
+2024_12,2024,12,British Grand Prix,Silverstone,train,961,630,0.24349635796045785,True,False,wet_compound,False,wet_compound,,,,0.0,0.6555671175858481,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_13,2024,13,Hungarian Grand Prix,Budapest,train,1355,1227,0.0,False,True,,True,,,,,0.0,0.9055350553505535,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_14,2024,14,Belgian Grand Prix,Spa-Francorchamps,train,841,725,0.0,False,True,,True,,,,,0.0,0.8620689655172413,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_15,2024,15,Dutch Grand Prix,Zandvoort,train,1426,1350,0.0,False,True,,True,,,,,0.0,0.9467040673211781,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_16,2024,16,Italian Grand Prix,Monza,train,1008,914,0.0,False,True,,True,,,,,0.0,0.9067460317460317,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_17,2024,17,Azerbaijan Grand Prix,Baku,train,973,852,0.0,False,True,,True,,,,,0.0,0.8756423432682425,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_18,2024,18,Singapore Grand Prix,Marina Bay,train,1177,1097,0.0,False,True,,True,,,,,0.0,0.9320305862361937,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_19,2024,19,United States Grand Prix,Austin,train,1059,852,0.0,False,True,,True,,,,,0.0,0.8045325779036827,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_20,2024,20,Mexico City Grand Prix,Mexico City,train,1215,1051,0.0,False,True,,True,,,,,0.0,0.8650205761316873,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_21,2024,21,São Paulo Grand Prix,São Paulo,train,1135,0,1.0,True,False,wet_compound,False,wet_compound,,,,0.0,0.0,True,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,no_clean_laps;red_flag_session,True
+2024_22,2024,22,Las Vegas Grand Prix,Las Vegas,train,938,820,0.0,False,True,,True,,,,,0.0,0.8742004264392325,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_23,2024,23,Qatar Grand Prix,Lusail,train,943,664,0.0,False,True,,True,,,,,0.0,0.704135737009544,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2024_24,2024,24,Abu Dhabi Grand Prix,Yas Island,train,1035,857,0.0,False,True,,True,,,,,0.0,0.8280193236714976,False,,TracingInsights/2024,d1543a71370d9b617b627319f8ad80b2f85dfd5e,,False
+2025_01,2025,1,Australian Grand Prix,Melbourne,test,927,32,0.8090614886731392,True,False,wet_compound,False,wet_compound,,,,0.0,0.034519956850053934,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_02,2025,2,Chinese Grand Prix,Shanghai,test,1065,942,0.0,False,True,,True,,,,,0.0,0.8845070422535212,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_03,2025,3,Japanese Grand Prix,Suzuka,test,1059,989,0.0,False,True,,True,,,,,0.0,0.9338999055712937,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_04,2025,4,Bahrain Grand Prix,Sakhir,test,1128,924,0.0,False,True,,True,,,,,0.0,0.8191489361702128,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_05,2025,5,Saudi Arabian Grand Prix,Jeddah,test,898,797,0.0,False,True,,True,,,,,0.0,0.8875278396436526,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_06,2025,6,Miami Grand Prix,Miami Gardens,test,1005,478,0.0,True,False,rainfall,False,rainfall,,,,0.4437810945273632,0.47562189054726367,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,rainfall_without_wet_threshold;unknown_compound,True
+2025_07,2025,7,Emilia Romagna Grand Prix,Imola,test,1207,939,0.0,False,True,,True,,,,,0.0,0.7779618889809445,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_08,2025,8,Monaco Grand Prix,Monaco,test,1425,1165,0.0,False,True,,True,,,,,0.0,0.8175438596491228,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_09,2025,9,Spanish Grand Prix,Barcelona,test,1203,980,0.0,False,True,,True,,,,,0.0,0.8146300914380715,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_10,2025,10,Canadian Grand Prix,Montréal,test,1349,1153,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.85470719051149,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,rainfall_without_wet_threshold,True
+2025_11,2025,11,Austrian Grand Prix,Spielberg,test,1127,984,0.0,False,True,,True,,,,,0.0,0.8731144631765749,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_12,2025,12,British Grand Prix,Silverstone,test,826,121,0.7360774818401937,True,False,wet_compound,False,wet_compound,,,,0.0,0.14648910411622276,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_13,2025,13,Belgian Grand Prix,Spa-Francorchamps,test,879,548,0.27189988623435724,True,False,wet_compound,False,wet_compound,,,,0.06484641638225255,0.6234357224118316,True,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,unknown_compound;red_flag_session,True
+2025_14,2025,14,Hungarian Grand Prix,Budapest,test,1368,1275,0.0,False,True,,True,,,,,0.0,0.9320175438596491,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_15,2025,15,Dutch Grand Prix,Zandvoort,test,1364,998,0.0,False,True,,True,,,,,0.0,0.7316715542521994,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_16,2025,16,Italian Grand Prix,Monza,test,975,878,0.0,False,True,,True,,,,,0.0,0.9005128205128206,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_17,2025,17,Azerbaijan Grand Prix,Baku,test,968,791,0.0,False,True,,True,,,,,0.0,0.8171487603305785,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_18,2025,18,Singapore Grand Prix,Marina Bay,test,1229,1105,0.0,True,False,rainfall,False,rainfall,,,,0.0,0.8991049633848658,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,rainfall_without_wet_threshold,True
+2025_19,2025,19,United States Grand Prix,Austin,test,1067,898,0.0,False,True,,True,,,,,0.0,0.8416119962511716,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_20,2025,20,Mexico City Grand Prix,Mexico City,test,1263,1103,0.0,False,True,,True,,,,,0.0,0.8733174980205859,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_21,2025,21,São Paulo Grand Prix,São Paulo,test,1251,1032,0.0,False,True,,True,,,,,0.0,0.8249400479616307,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_22,2025,22,Las Vegas Grand Prix,Las Vegas,test,886,760,0.0,False,True,,True,,,,,0.0,0.8577878103837472,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_23,2025,23,Qatar Grand Prix,Lusail,test,1067,904,0.0,False,True,,True,,,,,0.0,0.8472352389878163,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False
+2025_24,2025,24,Abu Dhabi Grand Prix,Yas Island,test,1156,1044,0.0,False,True,,True,,,,,0.0,0.903114186851211,False,,TracingInsights/2025,dfb3ea3f50b69857fe8e40cabe5e899743c59f6a,,False

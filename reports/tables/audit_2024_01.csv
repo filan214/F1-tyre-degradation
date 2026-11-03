@@ -1,0 +1,12 @@
+rule_id,rule_description,laps_removed,laps_remaining
+raw,All input laps,0,1129
+C1,Missing lap timing,0,1129
+C2,Standing-start lap,20,1109
+C3,In-lap,42,1067
+C4,Out-lap,43,1024
+C5,Track status not exactly green,18,1006
+C6,Stewards-deleted lap,18,988
+C7,Unsynced lap timing,0,988
+C8,FastF1-generated lap,0,988
+C9,Non-dry or unknown compound,0,988
+C10,Slower than 107% of surviving race median,0,988

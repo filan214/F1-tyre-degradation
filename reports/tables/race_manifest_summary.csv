@@ -1,0 +1,10 @@
+year,split,decision,reason,races
+2023,train,excluded,rainfall,3
+2023,train,excluded,wet_compound,2
+2023,train,included,included,17
+2024,train,excluded,rainfall,2
+2024,train,excluded,wet_compound,3
+2024,train,included,included,19
+2025,test,excluded,rainfall,3
+2025,test,excluded,wet_compound,3
+2025,test,included,included,18

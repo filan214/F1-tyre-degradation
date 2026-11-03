@@ -1,0 +1,14 @@
+check,status
+full_test_suite_153,PASS
+clean_offline_install,PASS
+clean_environment_tests_153,PASS
+dependency_checks,PASS
+wheel_archive_catalog,PASS
+readme_local_links,PASS
+cached_scripts_01_to_07,PASS
+compared_23_csvs,PASS
+compared_4_parquets,PASS
+compared_cv_scores_params_selection,PASS
+original_13_frozen_files_unchanged,PASS
+11_figures_regenerated,PASS
+fresh_online_clone_and_cold_download,UNVERIFIED
