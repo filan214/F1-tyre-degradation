@@ -1,0 +1,74 @@
+{
+  "exported_at": "2026-11-03T21:38:04+07:00",
+  "exported_by": "scripts/08_export_app_data.py",
+  "n_races": 18,
+  "chosen_model": "pred_rf",
+  "baseline": "pred_b1",
+  "optional_predictions_included": true,
+  "source_commits": {
+    "2023": {
+      "repository": "TracingInsights/2023",
+      "commit": "737c84d3ae14b9883a671ca248d015b69cf1cb58"
+    },
+    "2024": {
+      "repository": "TracingInsights/2024",
+      "commit": "d1543a71370d9b617b627319f8ad80b2f85dfd5e"
+    },
+    "2025": {
+      "repository": "TracingInsights/2025",
+      "commit": "dfb3ea3f50b69857fe8e40cabe5e899743c59f6a"
+    }
+  },
+  "reconciliation": {
+    "atol": 1e-12,
+    "max_abs_diff": 1.1102230246251565e-16,
+    "reference": "test_results_by_race.csv"
+  },
+  "files": {
+    "test_predictions.parquet": {
+      "sha256": "402c80acdebd90c9d7e09066c148cf5b2a7b4edc0f878c231092e482dd256013",
+      "bytes": 817222,
+      "rows": 13718
+    },
+    "test_summary.csv": {
+      "sha256": "2c9032bb3ce8588e4d03ababab0782545be1806b4ece87aebd5cd4923ef464ff",
+      "bytes": 1021,
+      "rows": 7
+    },
+    "test_results_by_race.csv": {
+      "sha256": "f0c8c0b28195f21d8160c013da5a5f4521cbd54dacd09f6590c0fe9b44295d77",
+      "bytes": 2755,
+      "rows": 18
+    },
+    "error_by_tyre_age_bucket.csv": {
+      "sha256": "78fbc864550c7f12e2e7035ab21de92630b50550ddb427c545b7e93a737791f3",
+      "bytes": 964,
+      "rows": 5
+    },
+    "error_by_compound.csv": {
+      "sha256": "76ec680128d2f157fdd8e058ee0579f5790aa0c41ebef5bb858c8887d269fa38",
+      "bytes": 649,
+      "rows": 3
+    },
+    "error_by_stint_phase.csv": {
+      "sha256": "816ad2cb19ac0812826d8d88fdcbd0a7de6c91e88c571bad6880d3052c3c3230",
+      "bytes": 551,
+      "rows": 2
+    },
+    "error_by_slope_group.csv": {
+      "sha256": "8af7c8976944df5b3aabf5a846582a94f41b8ffa1ab29ca8a7064c94ccba32db",
+      "bytes": 521,
+      "rows": 2
+    },
+    "error_by_circuit.csv": {
+      "sha256": "14b8384c1749f8be2b86110f9f8ad1a8cc60c3bea1da2bdfc6b7470b624c2228",
+      "bytes": 2988,
+      "rows": 18
+    },
+    "cv_summary.csv": {
+      "sha256": "9ab551c3cc6917950c5ccd45aec0d4acae4182fcdacbe584fa5f62ea57cacfe4",
+      "bytes": 530,
+      "rows": 4
+    }
+  }
+}

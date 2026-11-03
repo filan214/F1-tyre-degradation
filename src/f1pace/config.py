@@ -9,6 +9,7 @@ PROCESSED_DIR = DATA_DIR / "processed"
 MODELS_DIR = ROOT / "models"
 FIG_DIR = ROOT / "reports" / "figures"
 TABLE_DIR = ROOT / "reports" / "tables"
+APP_DATA_DIR = ROOT / "app_data"
 ARCHIVE_CATALOG_PATH = Path(__file__).with_name("archive_catalog.json")
 
 SEED = 42

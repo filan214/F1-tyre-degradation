@@ -1,0 +1,3 @@
+slope_group,n_laps,n_races,model_pooled_mae_s,model_mean_race_mae_s,baseline_pooled_mae_s,baseline_mean_race_mae_s,model,baseline,improvement_s,improvement_pct,races_won,races_lost,races_tied
+Low (<=0 s/lap),8186,18,0.27655186621856487,0.28500570587134366,0.278289274370877,0.2892805507375633,pred_rf,pred_b1,0.004274844866219651,1.477750528101632,12,6,0
+High (>0 s/lap),5532,18,0.36899331378608247,0.3657548351526084,0.39930766449746913,0.39600586181513125,pred_rf,pred_b1,0.03025102666252283,7.63903506980031,18,0,0

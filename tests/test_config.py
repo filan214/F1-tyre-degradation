@@ -9,7 +9,7 @@ from f1pace import config
 
 @pytest.mark.parametrize(
     "name",
-    ["ROOT", "DATA_DIR", "CACHE_DIR", "PROCESSED_DIR", "MODELS_DIR", "FIG_DIR", "TABLE_DIR", "ARCHIVE_CATALOG_PATH"],
+    ["ROOT", "DATA_DIR", "CACHE_DIR", "PROCESSED_DIR", "MODELS_DIR", "FIG_DIR", "TABLE_DIR", "APP_DATA_DIR", "ARCHIVE_CATALOG_PATH"],
 )
 def test_config_paths_are_path_objects(name: str) -> None:
     """Catch missing paths or paths exposed as strings."""

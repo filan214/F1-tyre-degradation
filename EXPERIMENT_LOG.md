@@ -1266,6 +1266,82 @@ Portfolio bullet:
 
 > Built a leakage-safe next-lap forecasting pipeline across 54 dry F1 races (2023–2025); a training-selected Random Forest reduced mean per-race MAE by 4.00% versus the last-lap baseline on 18 held-out 2025 races, with error analysis retaining failures on young tyres and individual circuits.
 
+
+### 2026-11-03 — Phase 9 — read-only Streamlit app
+
+Commands actually run (each line is a separate invocation):
+
+```powershell
+.venv\Scripts\python.exe -m pip install -e ".[dev,app]"
+.venv\Scripts\python.exe scripts\08_export_app_data.py
+.venv\Scripts\python.exe -m pytest -q
+.venv\Scripts\python.exe -m pip check
+.venv\Scripts\python.exe -m streamlit run app/streamlit_app.py --server.headless true --server.port 8599 --browser.gatherUsageStats false
+.venv\Scripts\python.exe -m streamlit run app/streamlit_app.py --server.headless true --server.port 8598 --browser.gatherUsageStats false --theme.base light
+```
+
+Data: saved Phase 6–7 outputs only: 13,718 rows, 18 races, 2025 test split. No model was loaded, fitted or run, and no prediction changed. `reports/tables/race_manifest.csv` was read for event names and source commits. No new metric was produced: every number in the app comes from existing saved results.
+
+Installed: streamlit 1.66.1, altair 6.3.0 (with Streamlit). pandas 2.3.3, pyarrow 24.0.0 and all other pins are unchanged. `pip check`: no broken requirements.
+
+Exported files (`optional_predictions_included`: true; export timestamp 2026-11-03T21:38:04+07:00):
+
+| File | Bytes | Rows | SHA-256 |
+|---|---|---|---|
+| test_predictions.parquet | 817222 | 13718 | `402c80acdebd90c9d7e09066c148cf5b2a7b4edc0f878c231092e482dd256013` |
+| test_summary.csv | 1021 | 7 | `2c9032bb3ce8588e4d03ababab0782545be1806b4ece87aebd5cd4923ef464ff` |
+| test_results_by_race.csv | 2755 | 18 | `f0c8c0b28195f21d8160c013da5a5f4521cbd54dacd09f6590c0fe9b44295d77` |
+| error_by_tyre_age_bucket.csv | 964 | 5 | `78fbc864550c7f12e2e7035ab21de92630b50550ddb427c545b7e93a737791f3` |
+| error_by_compound.csv | 649 | 3 | `76ec680128d2f157fdd8e058ee0579f5790aa0c41ebef5bb858c8887d269fa38` |
+| error_by_stint_phase.csv | 551 | 2 | `816ad2cb19ac0812826d8d88fdcbd0a7de6c91e88c571bad6880d3052c3c3230` |
+| error_by_slope_group.csv | 521 | 2 | `8af7c8976944df5b3aabf5a846582a94f41b8ffa1ab29ca8a7064c94ccba32db` |
+| error_by_circuit.csv | 2988 | 18 | `14b8384c1749f8be2b86110f9f8ad1a8cc60c3bea1da2bdfc6b7470b624c2228` |
+| cv_summary.csv | 530 | 4 | `9ab551c3cc6917950c5ccd45aec0d4acae4182fcdacbe584fa5f62ea57cacfe4` |
+| manifest.json | 2200 | — | `245d873a91857a907bf1d82fab9312cea0127e8c004aedf2e30b8c4b3b5202bb` |
+
+Total: 829,401 bytes, under the 5 MB and 10 MB limits.
+
+Results:
+
+- **Reconciliation:** per-race MAE recomputed from the exported parquet matches `test_results_by_race.csv` for all seven predictors. Largest absolute gap: 1.11e-16 s (limit 1e-12). The export also asserted 13,718 rows, 18 races, no 2023–2024 rows and no missing predictions.
+- **Repeatability:** a second export to a scratch folder gave identical SHA-256 values for all nine data files.
+- **pytest:** 201 passed with the `app` extra, up from 153 at session start. With Streamlit made unavailable, `tests/test_streamlit_app.py` skips and `tests/test_app_data.py` still passes (21 passed, 1 skipped).
+- **Frozen outputs:** 93 files under `data/processed`, `models`, `reports`, `scripts`, `tests` and `src/f1pace` were hashed before work began. Only two differ, both intended: `src/f1pace/config.py` (`APP_DATA_DIR` added) and `tests/test_config.py` (one test parameter added).
+- **Pages:** all four run without exceptions under `AppTest`, which goes through the real `st.navigation` and selects each of the 18 races. All four also rendered in headless Chrome through `streamlit run` on the dark theme, and three on the light theme, with no page exceptions, no browser console errors and no server tracebacks. The Method and limits page was not captured on the light theme. The chart hover tooltip showed values.
+
+Observations:
+
+- The browser check found defects the tests had passed: gain charts collapsed into overlapping rows, the source note was unreadable on the dark theme, and the light theme drew dark-theme colours. All three were fixed. The first two now have regression tests, and those tests check the chart spec rather than the rendered layout. The colour fix removes theme detection, using one palette that passes contrast and colour-vision checks on both surfaces.
+- The Chrome extension was not connected, so the browser check used a throwaway script in the session scratchpad driving headless Chrome. The script is not part of the repo.
+- Beyond the file names in the prompt, the app adds `app/app_common.py` for shared loading and charts, and `app/views/` with one file per page. `AppTest.switch_page` can only reach file-based pages.
+- Not verified: Streamlit Community Cloud deployment, or a run from a fresh clone. Nothing was committed, pushed or deployed. The PRD §9 fresh-clone checkbox remains open.
+
+Licence finding (TracingInsights, read at the pinned commits on 2026-11-03):
+
+| Repository | Commit | Licence | LICENSE SHA-256 |
+|---|---|---|---|
+| TracingInsights/2023 | `737c84d` | MIT, copyright 2023 TracingInsights-Archive | `8eaea9798a53c0bb992e5f1a902f5725ca6e321ef7293f9a47e2dbdf79e91c13` |
+| TracingInsights/2024 | `d1543a7` | MIT, copyright 2024 TracingInsights-Archive | `a350f1d49e6af623bcb0d8a18d4ed2862ca31c6c0b3808a266c31ecae477ee51` |
+| TracingInsights/2025 | `dfb3ea3` | Apache-2.0; no NOTICE file at this commit | `c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4` |
+
+- **The publisher's terms allow it, with conditions.** MIT and Apache-2.0 both permit redistribution. The 2025 README adds that the data can be used "as you wish" and that attribution is appreciated but not required. The licences still require keeping their notices. Apache-2.0 also requires giving recipients a copy of the licence and marking modified files. `app_data/` does not yet include licence copies.
+- **Whether the publisher can grant those rights is unclear.** The 2025 README says the data comes from the Ergast/Jolpica API and F1 official feeds via FastF1. A repository licence covers only rights the publisher holds, and no licence from Formula 1 for the timing data was found. Formula 1's own terms were not reviewed. The README also says the project is unofficial and that F1 marks belong to Formula One Licensing B.V.
+- **Status:** this is a reading of the licence files, not legal advice. Deployment waits for the user's decision. `origin` is a public repository, so the same decision applies to pushing `app_data/`.
+
+Next:
+
+- User decides on publishing `app_data/` and deploying. If yes, add the licence copies first.
+- The next session closes the fresh-clone checkbox.
+
+
+### 2026-11-03 — Phase 9 — licence copies added
+
+Requested by the user after the licence finding above. Command: `.venv\Scripts\python.exe -m pytest -q`
+
+Added `app_data/LICENSES/`: the three LICENSE files, byte-exact from the pinned commits and matching the SHA-256 values logged above, plus `NOTICE.md`, which states the changes made to the source data. This meets the notice and licence-copy conditions from the publisher's licences. It does not settle the separate question of rights in the underlying F1 timing data, which stays unclear.
+
+The export script does not write these files, so `manifest.json` and all exported data hashes are unchanged. A new test pins the licence hashes. The Method and limits page now points to the folder. No metric was produced or changed.
+
 ---
 
 ## Key results summary
@@ -1274,9 +1350,9 @@ Fill in **only** from the entries above.
 
 | Stage | Split | Best baseline (MAE s) | Best model (MAE s) | Improvement | Races won vs baseline |
 |---|---|---|---|---|---|
-| Baselines (Phase 4) | train | | — | — | — |
-| CV (Phase 5) | train CV | | | | |
-| Final test (Phase 6) | 2025 test | | | | |
+| Baselines (Phase 4) | train | pred_b1, 0.353741 | — | — | — |
+| CV (Phase 5) | train CV | pred_b1, 0.353741 | pred_rf, 0.33503 | 0.0187106 s (5.28934%) | 32 of 36 |
+| Final test (Phase 6) | 2025 test | pred_b1, 0.322424 | pred_rf, 0.309541 | 0.0128832 s (3.99574%) | 13 of 18 (5 lost, 0 tied) |
 
 ---
 
@@ -1419,6 +1495,29 @@ unchanged. No dependency or permission setting was changed.
 ### 2026-11-03 — Phase 8 — reproduction verification scope
 
 The required fresh online clone cannot be claimed: the supplied workspace lacks Git metadata and the pinned raw-input network probe failed with WinError 10061. Verification instead used an isolated source copy, the verified raw cache, and a separate clean offline-installed environment. All scripts reproduced their tables; original artifacts were unchanged. A copied opening marker plus --i-understand-rerun made the repeated final evaluation explicit. This is not a new holdout. The first PRD success checkbox remains open.
+
+
+### 2026-11-03 — Phase 9 — read-only Streamlit app: authorised exceptions and deviations
+
+Authorised by the user in the Session 9 prompt, for Phase 9 only, and recorded in `CLAUDE.md`:
+
+- **Stretch work:** Phase 9 starts although the PRD §9 fresh-clone checkbox is still open.
+- **Dependency:** `streamlit` is added as a new optional extra, `app`. Core and `dev` dependencies are unchanged.
+- **Test-set access:** `scripts/08_export_app_data.py` reads saved Phase 6 outputs only. It does not load models, predict, refit or change any Phase 0–8 file.
+- **Committed data:** `app_data/` is committable. It holds derived 2025 predictions and result tables, no raw archive files.
+- **Paths:** `APP_DATA_DIR` is added to `config.py`. The app does not import `f1pace` and resolves `app_data/` from its own file location.
+
+Documents changed: `CLAUDE.md`, `IMPLEMENTATION_GUIDE.md` §12, `CLAUDE_CODE_PROMPTS.md`, `PRD.md` §13 and this log. The "Key results summary" table is filled only from numbers logged in Phases 4–6.
+
+Deviations found while implementing:
+
+| Date | Section | What changed | Why | Impact |
+|---|---|---|---|---|
+| 2026-11-03 | Session 9 task 2 | `event_name` is joined read-only from `reports/tables/race_manifest.csv` on `race_id`; the export also takes the pinned source commits from that table. | `test_predictions.parquet` has no `event_name` column. The prompt said to stop and ask; the user chose this join. | Saved predictions are unchanged. The export fails if a race has no event name or its circuit disagrees. |
+| 2026-11-03 | Session 9 task 1 | `CLAUDE_CODE_PROMPTS.md` is created, holding only the Session 9 prompt. | The file did not exist in the folder or in git, although guide §1 lists it. The user chose to create it. | Earlier session prompts are not reconstructed. |
+| 2026-11-03 | Session 9 task 2 | A root `.gitattributes` marks `app_data/**` as `-text`. | `core.autocrlf=true` stores CSVs with LF but keeps CRLF in the working tree, so a clone on another OS would not match the SHA-256 values in `manifest.json`. | Committed `app_data/` bytes stay exact. `.gitignore` needs no change, since `data/` does not match `app_data/`. |
+| 2026-11-03 | §11 plot rules | App charts use Altair and the source note "Data: FastF1-derived TracingInsights archive". | The Session 9 prompt specifies both. | App only. The saved matplotlib figures and their notes are unchanged. |
+| 2026-11-03 | Session 9 context | The prompt treats the repo as not yet on GitHub, but `origin` already points to a public repository, `filan214/F1-tyre-degradation`. | Observed from `git remote -v` and the GitHub API. | The app's README link uses that URL. Nothing was committed, pushed or deployed. Pushing `app_data/` would itself publish the derived data. |
 
 ---
 

@@ -1,0 +1,2 @@
+# Keep exported bytes exact so manifest.json hashes survive core.autocrlf and other operating systems.
+app_data/** -text
